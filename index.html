@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div id="main">
+        <h1> Etch-a-Sketch</h1>
+        <div class="middle">
+            <div class="grid">
+                <div class="set">
+                    <h3> Enter the Number you want grid of :</h3>
+                    <input type="number"  value="Enter the number......">
+                    <button class="btn"> Set</button>
+                </div>
+                <div class="color">
+                    <h4> Select the color of Pen:</h4>
+                    <div class="colorss">
+                        <div class="item1"  style="background-color:black "></div>
+                        <div class="item2"  style="background-image:linear-gradient(violet,indigo,blue,green,yellow,orange,red) " ></div>
+                        <div class="item3"  style="background-color: rgb(255, 164, 8)"> Warm </div>
+                        <div class="item4" style="background-color:rgb(0, 135, 254)"> Cold</div>
+                    </div>
+                   <img src="./images/eraser.png" >
+                   <button class="clr"> Clear Drawing</button>
+                </div>
+                <button class="reset">Reset</button>
+            </div>
+            <div id="container">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

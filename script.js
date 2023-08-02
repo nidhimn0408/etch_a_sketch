@@ -22,7 +22,9 @@ const reset = function () {
     const Reset = document.querySelector('.reset');
     Reset.addEventListener('click', () => {
         emptyHTMl(container);
+        run();
     })
+    
 }
 const gridnum = function () {
     const container = document.getElementById('container');

@@ -69,7 +69,10 @@ img {
     margin: 8%;
     height: auto;
 }
-
+img:hover {
+    transform: scaleX(-1);
+    cursor: pointer;
+  }
 input[type=number] {
     width: 130px;
     box-sizing: border-box;
@@ -127,9 +130,12 @@ input[type=number]:focus {
     box-shadow: 5px 5px 10px rgb(1, 15, 23);
     border-radius: 10px;
     font-size: 3vh;
+    
 }
 .item1,.item2,.item3,.item4 {
         width: 4vw;
+        cursor: pointer;
+        
 }
 
 .item1 {
@@ -147,6 +153,7 @@ input[type=number]:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .bg {
@@ -167,13 +174,14 @@ button {
     box-shadow: 5px 5px 10px black;
     width: fit-content;
     font-size: 1em;
-
+    cursor: pointer;
 }
 
 .clr {
     font-size: 3vh;
     background-color: aqua;
     padding: 10px;
+    cursor: pointer;
 }
 
 h3,
@@ -246,10 +254,12 @@ h4 {
     }
     .clr,.reset{
         font-size: 2.5vh;
+        cursor: pointer;
     }
   
     .btn{
         font-size: 1.5em;
+        cursor:pointer;
     }
 
 }
